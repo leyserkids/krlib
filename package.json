@@ -1,0 +1,29 @@
+{
+  "name": "krlib",
+  "version": "1.0.0",
+  "description": "KR Common Library CLI",
+  "main": "index.js",
+  "keywords": [
+    "leyserkids",
+    "library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leyserkids/krlib.git"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
+  "author": "Leyser KR Team <xa_leyser_kr@grapecity.com>",
+  "license": "GPL",
+  "files": [
+    "index.js"
+  ],
+  "bin": "index.js",
+  "dependencies": {
+    "semver": "~5.6.0"
+  }
+}
