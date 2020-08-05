@@ -1,6 +1,6 @@
 {
   "name": "krlib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "KR Common Library CLI",
   "main": "index.js",
   "keywords": [
