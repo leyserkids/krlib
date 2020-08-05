@@ -89,7 +89,7 @@ class Utils {
         try {
             const cmd = await execAsync('git remote get-url --push origin');
             const name = cmd.stdout.split('\n')[0];
-            check = /leyserkids\/leyserkids.git/.test(name);
+            check = /\/leyserkids\//.test(name);
         } catch (err) {
             Utils.loggerError(err);
             throw new Error('Could not get repository name from git');
